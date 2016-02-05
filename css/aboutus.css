@@ -1,0 +1,133 @@
+.white{
+	height: 320px;
+	width: 100%;
+}
+
+.trading{
+	text-align: center;
+	margin-bottom: 4%;
+	font-family: "Nova-light";
+	color:#002366;
+	font-size: 50px;
+}
+
+.quote{
+	font-family: "Nova-light";
+	font-size: 20px;
+	color:  #606060;
+}
+.cuerpo{
+	font-family: "Nova-regular";
+	font-size: 17px;
+	color: #606060;
+}
+
+
+.all{
+	margin-top:10%;
+
+}
+.uno{
+
+}
+
+.dos{
+	-webkit-transform: rotate(180deg);
+	position: relative;
+	left: 6px;
+	top: 8px;
+
+
+}
+.blue{
+	background-image: url("../img/background-about-us.jpg");
+	height: 1000px;
+	background-size: 100% 150%;
+    background-size: cover;
+
+}
+.envolve{
+	color: #f6f6f6;
+	font-size: 45px;
+	font-family: "Nova-light";
+	text-align: center;
+
+
+}
+.caja{
+	position: relative;
+	top: 180px;
+}
+.bluebox{
+	background-color: #002366;
+	height: 55px;
+	width: 38%;
+	position: relative;
+	left: 31%;
+	border-radius: 9px;
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+
+.read{
+	color: #f6f6f6;
+	font-family: "Nova-light";
+	font-size: 27px;
+	text-align: center;
+	padding-top: 3%;
+
+}
+.blueletter{
+	text-align: center;
+	color: #f6f6f6;
+	font-family: "Nova-light";
+	font-size: 22px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.sound{
+	font-family:"Nova-light";
+	font-size: 24px;
+	color: #f6f6f6;
+	position: relative;
+	top: 250px;
+	right: 40px;
+	padding-left: 16%;
+}
+
+
+
+
+/*ul li{
+	display: inline-block;
+	position: relative;
+	margin: 20px;
+	
+}
+.texto1{
+	color: #606060;
+	font-family:"Nova-regular";
+
+}
+.texto2{
+	color: #979797;
+	font-family:"Nova-light";
+
+}
+.centro{
+	text-align: center;
+}
+.izquierda{
+	margin-right: 1%;
+}
+.derecha{
+	margin-left: 1%;
+}
+.letter{
+	font-size: 14px;
+}*/
+
+
+
+
+
