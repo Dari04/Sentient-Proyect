@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header {
+	width: 100%;
+	padding: 2px 5px;
+}
+.clearfix {
+  overflow: auto;
+  }
+img{
+	float: left;
+	display: inline-block;
+}
+header nav {
+	color:#002366;
+	z-index:1000;
+	max-width: 1000px;
+	margin:20px auto;
+	display:block;
+	float: right;
+}
+
+header nav ul li {
+	display:inline-block;
+	position: relative;
+	color:#002366;
+}
+.menu_bar {
+	display: none;
+}
+header nav ul li a {
+	text-decoration:none;
+	padding: 0px 20px;
+}
+.personaje{
+	padding: 4% 0%;
+	border-bottom: 1px solid gray;
+}
+
+.container .text-center h3{
+	margin: 1% 0% 5%;
+}
+.texto{
+	text-align: justify;
+}
+.texto p{
+	margin: 4% 0px;
+}
+.container .row img {
+	margin-bottom: 2%;
+}
