@@ -115,7 +115,7 @@ header nav ul{
     font-family:"nova-light"
 }
 .fondoazul{
-    background-image: url("../img/background-about-us.jpg");
+    background-image: url("../img/scale.gif");
     width: 100%;
     background-size: cover;
     padding: 4% 0%;
@@ -458,8 +458,10 @@ footer a {
     font-family: "nova-semibold";
     color:#002366; 
 }
-.fotos:hover {
-    opacity: 0.5;
+
+.circulo img:hover {
+        background-color:#179AD6;
+        color:#929cbf
 }
 
 
