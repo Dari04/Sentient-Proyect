@@ -1,116 +1,448 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-.menu_bar {
-	display:none;
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
 }
 
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: ;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+a {
+    color: white;
+}
+
+
+ /*==========================================================================
+   Author's custom styles
+
+   ========================================================================== */
+
+*{
+    box-sizing: border-box;
+    font-family: "nova-semibold";
+    font-size: 1.01em;
+}
+
+@font-face {
+    font-family: "nova-bold";
+    src: url(../fonts/proximanova/proximanova-bold-webfont.ttf) format("truetype");
+}
+@font-face {
+    font-family: "nova-light";
+    src: url(../fonts/proximanova/proximanova-light-webfont.ttf) format("truetype");
+}
+@font-face {
+    font-family: "nova-regitalic";
+    src: url(../fonts/proximanova/proximanova-regitalic-webfont.ttf) format("truetype");
+}
+@font-face {
+    font-family: "nova-semibold";
+    src: url(../fonts/proximanova/Proximanova-Semibold.otf) format("opentype");
+}
 header {
-	width: 100%;
-	padding: 2px 5px;
+    background-color: white;
+    height: 70px;
 }
-.clearfix {
-  overflow: auto;
-  }
-.img{
-	float: left;
-	display: inline-block;
+header nav ul{
+    margin-right: 7%;
+    font-family:"nova-regitalic";
 }
-header nav {
-	color:#002366;
-	z-index:1000;
-	max-width: 1000px;
-	margin:20px auto;
-	display:block;
-	float: right;
+.brand-logo{
+    margin-left: 7%;
+}
+.linea{
+    height: 14px;
+    border-left: 1px solid black;
+}
+.vol{
+    -webkit-transform: rotate(180deg)
+}
+.title{
+    text-align: center;
+}
+.contenblanco{
+    margin-top: 10px;
+}
+.contenblanco p {
+    font-family:"nova-light";
+}
+.nova {
+    font-family:"nova-light"
+}
+.fondoazul{
+    background-image: url("../img/background-about-us.jpg");
+    width: 100%;
+    background-size: cover;
+    padding: 4% 0%;
+    color:white;
+}
+.textderecho{
+    font-size: 1.5em;
+}
+.botonapply{
+    font-size: 1.5em;
+    background-color: #179ad6;
+    border-radius: 5px;
+    text-align: center;
+    width: 60%;
+    padding: 2% 0%;
+    margin-top: 15%;
+    text-decoration: none;
+    color:white;
+}
+.botonform{
+    font-size: 1.5em;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 60%;
+    padding: 2% 0%;
+    margin-top: 15%;
+}
+.botoncareers{
+    font-size: 1.5em;
+    background-color: #002366;
+    border-radius: 5px;
+    text-align: center;
+    width: 35%; 
+    margin: auto; 
+    margin-bottom: 5%;
 }
 
-header nav ul li {
-	display:inline-block;
-	position: relative;
-	color:#002366;
+.fondoazul h3{
+    margin-bottom: 5%
 }
-
-header nav ul li a {
-	text-decoration:none;
-	padding: 0px 20px;
+.personaje p{
+    text-align: justify !important;
+    font-size: 1em;
+}
+.personaje h1{
+    font-size: 2em;
+    color:#002366;
+}
+.personaje h3{
+    font-size: 1.5em;
+    color:#002366;
+}
+.personaje{
+    border-bottom: 1px solid #979797;
+    padding-bottom: 6%;
+}
+.personaje p {
+    font-family: "nova-light";
+}
+.personaje img {
+    margin-bottom: 5%;
 }
 .banner{
-	background-image: url("../img/hero-image.jpg");
-	width: 100%;
-	background-repeat: no-repeat;
-	text-align: center;
-	color: white;
-	padding-top: 10%
-	
+    background-image: url("../img/hero-image.jpg");
+    width: 100%;
+    background-size: cover;
+    
 }
-.banner h1 {
-	width: 70%;
-	font-size: 3.5em;
-	margin:auto;
-	text-align: center;
+.banner .center{
+    font-size: 1em;
+    padding: 0% 5%;
 }
-.banner img{
-	margin-top: 5%;
-	padding-bottom:5%
+.banner .center h2{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;
+    margin-bottom: 7%;
 }
-.sim{
-	text-align: center;
-	padding: 5%
-
-}
-.sanfrancisco p {
-	padding: 0% 20% 3%;
-	
-}
-.sanfrancisco h2{
-	padding: 0% 20% 10%;
+.banner .center img {
+    padding-bottom: 2%;
 }
 .caja img{
-	margin: 4%
+    margin: 4%
 }
 .caja h2{
-	margin-bottom: 4%;
+    margin-bottom: 4%;
 }
 .caja{
-	width: 100%;
-	height: 300px;
-	border:1px solid black;
-	padding: 5%;
+    width: 100%;
+    height: 370px;
+    border:1px solid #979797;
+    padding: 5%;
+    margin-bottom: 20%;
+    
+}
+.caja p{
+   font-family: "nova-light" !important 
 }
 .contac{
-	background-image: url("../img/background-contac-us.jpg");
-	width: 100%;
-	background-repeat: no-repeat;
-	text-align: center;
-	color: white;
-	padding: 10% 5%;
+    background-image: url("../img/background-contac-us.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding: 5% 0%;
 }
 .contac p {
-	margin: 1% 0%;
+    font-size: 1.5em;
+    width: 60%;
+    margin: auto;
+}
+form {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    margin-top: 5%;
 }
 input{
-	display: block;
-	margin: auto;
-	margin-top: 1%;
-	font-size: 1.5em;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 1.5em;
 }
 .bt{
-	text-align: center;
+    text-align: center;
 }
 .enviar{
-	background: blue;
-	color:white;
-	border-style: none;
-	padding: 1% 5%;
-	border-radius: 5px;
+    background: #179ad6;
+    color:white;
+    border-style: none;
+    padding: 1% 5%;
+    border-radius: 5px;
 }
-//*.global{
-	width: 1000px;
-	max-width: 1000px;
-	margin: 0 auto;
-	overflow: hidden;
+.textosim{
+    width: 70%;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    color: #606060;
+}
+.textosim2{
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5%;
+    color: #002366;
+}
+footer{
+    margin: auto;
+    text-align: center;
+    font-size: 1.05em;
+    color:gray;
+}
+footer nav a {
+    display: inline-block;
+    margin: 4% 2% 0%;
+}
+footer img{
+    margin: 1.5% 2px;;
+}
+footer a {
+    margin: 2% ;
+    color:#979797;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (max-width: 600px) {
+    .banner h2  {
+        font-size: 2em;
+    }
+    .caja {
+        margin-bottom: 2%;
+    }
+    form{
+        width: 80%;
+    }
+    header img{
+        height: 55px;
+    }
+    .fondoazul {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 840px) {
+        .botoncareers{
+        width: 90%;
+    }
+
+
+
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
