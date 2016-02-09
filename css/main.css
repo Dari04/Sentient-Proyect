@@ -99,7 +99,7 @@ header nav ul{
     border-left: 1px solid black;
 }
 .vol{
-    -webkit-transform: rotate(180deg)
+    -webkit-transform: rotate(180deg);
 }
 .title{
     text-align: center;
@@ -112,10 +112,11 @@ header nav ul{
     font-family:"nova-light";
 }
 .nova {
-    font-family:"nova-light"
+    font-family:"nova-light";
+    font-size: 19px;
 }
 .fondoazul{
-    background-image: url("../img/scale.gif");
+    background-image: url("../img/background-about-us.jpg");
     width: 100%;
     background-size: cover;
     padding: 4% 0%;
@@ -270,6 +271,11 @@ input{
     color: #002366;
 
 }
+.mueve{
+    position: relative;
+    top: 15px;
+    left: 6px;
+}
 footer{
     margin: auto;
     text-align: center;
@@ -396,12 +402,13 @@ footer a {
     display: inline-block;
 }
 .ca {
-    font-size: 30px;
+    font-size: 20px;
     margin: 2px;
+    font-family: "Nova-light";
 }
 .care {
     
-    width: 220px;
+    width: 190px;
     border-radius: 5px;
     padding: 5px;
     font-size: 20px;
@@ -489,6 +496,7 @@ footer a {
     }
     .caja {
         margin-bottom: 2%;
+        height: 264px;
     }
     form{
         width: 80%;
